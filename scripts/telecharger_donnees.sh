@@ -11,7 +11,7 @@
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
-MOIS="${1:-2025-01}"
+MOIS="${1:-2025-02}"
 TLC="https://d37ci6vzurychx.cloudfront.net"
 mkdir -p data/raw
 
